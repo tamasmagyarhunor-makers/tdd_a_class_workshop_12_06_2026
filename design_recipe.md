@@ -2,7 +2,7 @@
 ```text
 As a User
 So that I can represent a Person
-I want to be create a Person with a name and items
+I want to create a Person with a name and items
 
 As a User
 So that I can get my Person to have items
@@ -20,7 +20,7 @@ class Person:
 
     def __init__(self, name):
         self.name = name
-        self.items = [pencil]
+        self.items = []
     
     def add_item(self, item):
         # parameters
